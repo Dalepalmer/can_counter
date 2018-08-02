@@ -4,14 +4,14 @@ import Doughnut from 'react-chartjs-2'
 const chartOptions = {
           responsive: true,
           legend: {
-            display: false
+            display: true
           },
           animation: {
             duration: 1200,
             easing: 'easeOutBack'
           },
           labels: {
-            display: false
+            display: true
           },
           layout: {
             padding: {
@@ -48,17 +48,16 @@ const chartOptions = {
 const chartData = {labels: ["Cans in dollars"],
     datasets: [
 
-    {data: [10],
-    labels: "Cans in dollars"}
+    {data: [10, 90],
+    backgroundColor: ["#80cbc4", "#b0bec5"],
+    labels: ["Percentage Collected", "Percentage Remaining"]}
     ]}
 
 const IndexPage = () => (
   <div>
     <h1>Can Counter!</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <p>Welcome to our can collection counter.</p>
     <Doughnut data={chartData} options={chartOptions}  />
-    <Link to="/page-2/">Go to page 2</Link>
   </div>
 )
 

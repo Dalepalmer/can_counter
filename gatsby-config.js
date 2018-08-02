@@ -3,5 +3,5 @@ module.exports = {
     title: 'Gatsby Default Starter',
   },
   plugins: ['gatsby-plugin-react-helmet'],
-  pathPrefix: `/blog`,
+  pathPrefix: `/can_counter`,
 }
