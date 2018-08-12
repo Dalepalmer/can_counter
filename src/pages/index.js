@@ -55,8 +55,12 @@ const chartData = {labels: ["Cans in dollars"],
 
 const IndexPage = () => (
   <div>
-    <h1>Can Counter!</h1>
     <p>Welcome to our can collection counter.</p>
+    <p>A group of friends and I are collecting cans for whimsical things to make our live more vibrant. Here I will document out process</p>
+    <div>
+    
+    </div>
+
     <Doughnut data={chartData} options={chartOptions}  />
   </div>
 )

@@ -7,6 +7,7 @@
     "chart.js": "^2.7.2",
     "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.46",
+    "gatsby-plugin-favicon": "^2.1.1",
     "gatsby-plugin-react-helmet": "^2.0.11",
     "react-chartjs-2": "^2.7.4",
     "react-helmet": "^5.2.0"
