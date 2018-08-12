@@ -56,7 +56,7 @@ const chartData = {labels: ["Cans in dollars"],
 const IndexPage = () => (
   <div>
     <p>Welcome to our can collection counter.</p>
-    <p>A group of friends and I are collecting cans for whimsical things to make our livesß more vibrant. Here I will document out process</p>
+    <p>A group of friends and I are collecting cans for whimsical things to make our lives more vibrant. Here I will document out process</p>
     <div>
 
     </div>
