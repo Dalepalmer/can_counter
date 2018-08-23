@@ -49,7 +49,7 @@ const chartOptions = {
           },
       }
 const chartData = {
-    labels: ["Team Matt", "Radon Canyon", "Total", "Remaining"],
+    labels: ["Team Matt", "Radon Canyon", "Total", "Goal"],
     datasets: [
 
     {
