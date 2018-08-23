@@ -37,4 +37,5 @@ module.exports = {
       }
     }
   }],
+  pathPrefix: `/can_counter`,
 }
