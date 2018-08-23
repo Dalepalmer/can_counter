@@ -24,6 +24,7 @@ const chartOptions = {
                 label: function(tooltipItem, data) {
                     var total = (data.datasets[0].data).reduce((a, b) => a + b, 0)
                     var label = data.labels[tooltipItem.index] || '';
+                    label += ' : ' + data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index]
                     label += ' : ' + Math.abs(Math.round(data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index] / total * 100))
                     label += '%'
                     return label;
