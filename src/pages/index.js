@@ -27,6 +27,8 @@ const chartOptions = {
                     label += ' : $' +  data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index]
                     label += ' : ' + Math.abs(Math.round(data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index] / total * 100))
                     label += '%'
+                    label += '\n'
+                    label += 'Number of cans : ' + Math.round(data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index] / 10
                     return label;
                 },
              }
@@ -46,7 +48,7 @@ const chartOptions = {
             textMargin: 10
           },
       }
-const chartData = {labels: ["Cans in dollars"],
+const chartData = {labels: ["Cans in dollars", "Goal Remaining"],
     datasets: [
 
     {data: [24.40, 175.60],
