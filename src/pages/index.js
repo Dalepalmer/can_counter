@@ -48,7 +48,7 @@ const chartOptions = {
 const chartData = {labels: ["Cans in dollars"],
     datasets: [
 
-    {data: [10, 90],
+    {data: [24.40, 175.60],
     backgroundColor: ["#80cbc4", "#b0bec5"],
     labels: ["Percentage Collected", "Percentage Remaining"]}
     ]}
