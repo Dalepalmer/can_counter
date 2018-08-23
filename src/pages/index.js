@@ -48,12 +48,15 @@ const chartOptions = {
             textMargin: 10
           },
       }
-const chartData = {labels: ["Cans in dollars", "Goal Remaining"],
+const chartData = {
+    labels: ["Team Matt", "Radon Canyon", "Total", "Remaining"],
     datasets: [
 
-    {data: [24.40, 175.60],
-    backgroundColor: ["#80cbc4", "#b0bec5"],
-    labels: ["Percentage Collected", "Percentage Remaining"]}
+    {
+      data: [24.40, 0, 24.40, 175.60],
+      backgroundColor: ["#0ad1bf", "#ff7e22", "green", "#b0bec5"],
+     
+    }
     ]}
 
 const IndexPage = () => (
