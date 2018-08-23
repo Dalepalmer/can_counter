@@ -28,7 +28,7 @@ const chartOptions = {
                     label += ' : ' + Math.abs(Math.round(data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index] / total * 100))
                     label += '%'
                     label += '\n'
-                    label += 'Number of cans : ' + Math.round(data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index] / 10)
+                    label += 'Number of cans : ' + Math.round(data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index] * 10)
                     return label;
                 },
              }
