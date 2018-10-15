@@ -53,9 +53,9 @@ const chartData = {
     datasets: [
 
     {
-      data: [24.40, 0, 24.40, 175.60],
+      data: [40, 0, 24.40, 191.20],
       backgroundColor: ["#0ad1bf", "#ff7e22", "green", "#b0bec5"],
-     
+
     }
     ]}
 
